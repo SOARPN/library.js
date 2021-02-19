@@ -18,3 +18,7 @@ Calc.prototype.multiply = function () {
 Calc.prototype.divide = function () {
     return this.firstValue / this.secondValue;
 }
+
+Calc.prototype.square = function () {
+    return this.firstValue * this.firstValue;
+}
